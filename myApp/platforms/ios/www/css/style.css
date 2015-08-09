@@ -1,0 +1,17 @@
+/* Empty. Add your own CSS if you like */
+
+.day-topic {
+	text-transform: uppercase;
+}
+
+.section h3 {
+	margin: 20px 0;
+	font-size: 17px;
+    font-weight: 300;
+}
+
+.section hr {
+	border: none;
+	border-bottom: 1px solid #eee;
+	margin: 20px 0;
+}
