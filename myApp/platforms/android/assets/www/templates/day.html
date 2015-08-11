@@ -1,0 +1,20 @@
+<ion-view view-title="Chats">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" type="item-text-wrap">
+        
+        <h2 class="day-topic">{{day.topic}}</h2>
+
+        <div class="section" ng-repeat="section in day.lesson.sections" ng-if="section.read.indexOf('student') >= 0">
+        	<h3>{{section.title}}</h3>
+        	<!-- <p>{{section.content}}</p> -->
+        	<div ng-bind-html="section.content | to_trusted"></div>
+        	<!-- <p>{{section}}</p> -->
+
+        	<hr>
+        </div>
+
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

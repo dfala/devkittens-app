@@ -7,7 +7,7 @@
 // 'starter.controllers' is found in controllers.js
 angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
-.constant("env", "http://192.168.1.48:3000")
+.constant("env", "http://192.168.0.211:3000")
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
